@@ -1,0 +1,29 @@
+.firstheader {
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 5px;
+  height: 500px;
+  width: 100%;
+  background-image: url("aboutme.JPG");
+  background-size: 100% 70%;
+  background-attachment: fixed;
+  position: relative;
+}
+
+div.layer {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #212F3C;
+  font-size: 60px
+}
+
+.aboutme {
+  font-size: 24px;
+}
